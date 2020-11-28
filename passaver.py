@@ -25,7 +25,7 @@ if asksave=="y":
     else:
         text_file.write(user)
     text_file.write(" || ")
-    campany = input("Enter Company Name (e.g. fb,insta):")
+    campany = input("Enter Company Name (e.g. fb,insta): ")
     if campany=="":
         text_file.write("[Not entered]")
     else:
