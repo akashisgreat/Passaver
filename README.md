@@ -10,7 +10,7 @@
 ## Installation :
 * Install Python 3
 * Clone the git repository:<br>
-`git clone https//github.com/akashisgreat/Passaver.git`<br>
+`git clone https://github.com/akashisgreat/Passaver`<br>
 `cd Passaver`
 
 ## Run :
