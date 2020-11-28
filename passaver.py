@@ -34,7 +34,7 @@ if asksave=="y":
     text_file.write(password)
     text_file.write("\n")
     text_file.close()
-    print("\tYour password has been saved.\n")
+    print("\n\tYour password has been saved.\n")
 elif asksave=="n":
     print("\tPassword not saved.\n\tDone.\n")
     exit()
