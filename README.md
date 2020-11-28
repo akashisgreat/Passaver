@@ -24,10 +24,10 @@ Output like this:<br>
 
 <img src="Screenshot2.png" alt="Screenshot2">
 
-## Usage:
+## Usage: <br>
 To see all credentials, open `.Docsys.sysImport` with any TextEditor<br>
 <img src="ScreenshotSavedPasswd.png" alt="Saved Password">
 
-### Data Structure :
-`UserName || CompanyName || {Password}`<br>
+### Data Structure :<br>
+Format: `UserName || CompanyName || {Password}`<br>
 Data are separated with Two vertical bars " || "
