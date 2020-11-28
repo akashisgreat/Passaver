@@ -9,7 +9,7 @@ password_length = 10     # Change no. with your desired passwd length.
 file_name = ".Docsys.sysImport" # Change the file name which you want to keep in.
                                     # Remember! file name should be starting with "."(dot) because, in linux it is called hidden file.
                                     # e.g. ".filename.tXX"
-value = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM@#$%&*-+()![]\|\,.*:;/?_"
+value = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890@#$%&*-+()![]\|\,.*:;/?_"
 password = random.sample(value,password_length)
 password = "".join(password)
 print("Your password is:>> ",password)
