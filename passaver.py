@@ -6,7 +6,7 @@ import random
 import os
 print("\n\t\t** Your PASSWORD Saver. **\n")
 password_length = 10     # Change no. with your desired passwd length.
-file_name = ".Docsys.sysImport.txt" # Change the file name which you want to keep in.
+file_name = ".Docsys.sysImport" # Change the file name which you want to keep in.
                                     # Remember! file name should be starting with "."(dot)
                                     # e.g. ".filename.tXX"
 value = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM@#$%&*-+()![]\|\,.*:;/?_"
