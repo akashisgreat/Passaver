@@ -3,7 +3,6 @@
 # Purpose - Auto generate Random Passwords and save it with UserName and CompanyName in text form.
 
 import random
-import os
 print("\n\t\t** Your PASSWORD Saver. **\n")
 password_length = 10     # Change no. with your desired passwd length.
 file_name = ".Docsys.sysImport" # Change the file name which you want to keep in.
