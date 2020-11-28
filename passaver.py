@@ -16,6 +16,7 @@ print("Your password is:>> ",password)
 print("* Copy it and use :)\n")
 
 asksave = input("Do you want to save this(y/n): ")
+print("")
 asksave = asksave.lower()
 if asksave=="y":
     text_file = open(file_name,'a')
