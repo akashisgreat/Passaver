@@ -13,7 +13,7 @@ value = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM@#$%&*-+()![]\|\,.*
 password = random.sample(value,password_length)
 password = "".join(password)
 print("Your password is:>> ",password)
-print("*Copy it and use :)\n")
+print("* Copy it and use :)\n")
 
 asksave = input("Do you want to save this(y/n): ")
 asksave = asksave.lower()
