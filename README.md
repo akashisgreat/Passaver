@@ -26,6 +26,7 @@ Output like this:<br>
 
 ## Usage: <br>
 To see all credentials, open `.Docsys.sysImport` with any TextEditor<br>
+* `cat .Docsys.sysImport`
 <img src="ScreenshotSavedPasswd.png" alt="Saved Password">
 
 ### Data Structure :<br>
