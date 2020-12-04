@@ -16,7 +16,7 @@
 ## Run :
 In Passaver directy
 * `python passaver.py`<br>
-* `python3 passaver.py` # If both python3 and python installed. i.e. - in Linux,MacOS.
+* `python3 passaver.py` # If both python3 and python installed. i.e. - in Linux, MacOS.
 
 Output like this:<br>
 
