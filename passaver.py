@@ -3,16 +3,19 @@
 # Purpose - Auto generate Random Passwords and save it with UserName and CompanyName in text form.
 
 import random
+import clipboard
+
 print("\n\t\t** Your PASSWORD Saver. **\n")
 password_length = 10     # Change no. with your desired passwd length.
-file_name = ".Docsys.sysImport" # Change the file name which you want to keep in.
+file_name = ".Docsys.sysImport.txt" # Change the file name which you want to keep in.
                                     # Remember! file name should be starting with "."(dot) because, in linux it is called hidden file.
                                     # e.g. ".filename.tXX"
 value = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890@#$%&*-+()![]\|\,.*:;/?_"
-password = random.sample(value,password_length)
+password = random.sample(value, password_length)
 password = "".join(password)
 print("Your password is:>> ",password)
-print("* Copy it and use :)\n")
+clipboard.copy(password)
+print("* its Copied and use it :)\n")
 
 asksave = input("Do you want to save this(y/n): ")
 print("")
