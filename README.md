@@ -5,6 +5,7 @@
 * Save with UserName , Company name (FB,Insta,linkedin etc..) and with the password
 * Customize password_lenght (default is 10 character)
 * Password, username and all credentials are saved in `.Docsys.sysImport` named file in same directory.
+* Auto Copied at run
 * Easy to use 
 
 ## Installation :
